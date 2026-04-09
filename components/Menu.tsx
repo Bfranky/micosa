@@ -180,8 +180,12 @@ export default function Menu() {
                   borderRight: i % 2 === 0 ? "1px solid var(--clr-border)" : "none",
                   transition: "background .2s",
                 }}
-                onMouseOver={(e) => { (e.currentTarget as HTMLDivElement).style.background = "var(--clr-cream)"; }}
-                onMouseOut={(e)  => { (e.currentTarget as HTMLDivElement).style.background = "#fff"; }}
+               onMouseOver={(e) => {
+  e.currentTarget.style.background = "var(--clr-cream)";
+}}
+onMouseOut={(e) => {
+  e.currentTarget.style.background = "#fff";
+}}
               >
                 <div
                   style={{

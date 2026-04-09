@@ -89,9 +89,14 @@ export default function DriveThrough() {
                 textAlign: "center",
                 transition: "transform .25s, box-shadow .25s",
               }}
-              onMouseOver={(e) => { (e.currentTarget as HTMLDivElement).style.transform = "translateY(-4px)"; (e.currentTarget as HTMLDivElement).style.boxShadow = "var(--shadow-md)"; }}
-              onMouseOut={(e)  => { (e.currentTarget as HTMLDivElement).style.transform = "translateY(0)";   (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; }}
-            >
+              onMouseOver={(e) => {
+  e.currentTarget.style.transform = "translateY(-4px)";
+  e.currentTarget.style.boxShadow = "var(--shadow-md)";
+}}
+onMouseOut={(e) => {
+  e.currentTarget.style.transform = "translateY(0)";
+  e.currentTarget.style.boxShadow = "none";
+}} >
               <div style={{ fontSize: "2rem", marginBottom: ".6rem" }}>{b.icon}</div>
               <div style={{ fontWeight: 700, fontSize: ".9rem", color: "var(--clr-brand)", marginBottom: ".25rem" }}>{b.title}</div>
               <div style={{ fontSize: ".78rem", color: "var(--clr-muted)", lineHeight: 1.4 }}>{b.desc}</div>
