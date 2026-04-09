@@ -12,7 +12,7 @@ import Location        from "@/components/Location";
 import Contact         from "@/components/Contact";
 import CTABanner       from "@/components/CTABanner";
 import Footer          from "@/components/Footer";
-import FloatingActions from "@/components/FloatingActions";
+
 
 export default function Page() {
   return (
@@ -33,7 +33,6 @@ export default function Page() {
         <CTABanner />
       </main>
       <Footer />
-      <FloatingActions />
     </>
   );
 }
