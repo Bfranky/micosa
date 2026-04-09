@@ -1,3 +1,4 @@
+"use client";
 const items = [
   { icon: "⭐", value: "4.5★",         sub: "Excellent Rating"     },
   { icon: "🚗", value: "Drive-Through", sub: "Unique in the Area"   },

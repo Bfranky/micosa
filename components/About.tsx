@@ -1,3 +1,5 @@
+"use client";
+
 const stats = [
   { value: "4.5★",  label: "Google Rating",   note: "Excellent"       },
   { value: "3",     label: "Ways to Enjoy",    note: "Dine/Drive/Deliver" },

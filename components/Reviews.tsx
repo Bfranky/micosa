@@ -1,3 +1,4 @@
+"use client";
 const reviews = [
   {
     name:     "Nancyime Mua",

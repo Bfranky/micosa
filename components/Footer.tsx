@@ -1,3 +1,4 @@
+"use client";
 const year = new Date().getFullYear();
 
 const serviceLinks = [

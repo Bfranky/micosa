@@ -1,3 +1,5 @@
+"use client";
+
 const benefits = [
   { icon: "🅿️", title: "No Parking",      desc: "Drive up, get served, drive away"       },
   { icon: "⚡", title: "Fast Service",     desc: "5–10 minutes average"                   },

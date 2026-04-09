@@ -1,3 +1,4 @@
+"use client";
 import { MapPin, Clock } from "lucide-react";
 
 export default function Hero() {
